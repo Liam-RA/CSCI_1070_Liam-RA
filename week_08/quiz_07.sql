@@ -1,0 +1,14 @@
+--1. select amount from payment where amount >= 9.9;
+--2. select max(amount) from payment;
+--2. select title from film where rental_rate = 11.99;
+--3. select first_name,last_name,city,email,address, country
+--from staff s
+--left join address a
+--on s.staff_id = a.address_id
+--left join city c
+--on a.address_id = c.city_id
+--left join country
+--on country.country_id = c.city_id
+
+-- 4. I am interested in biotechnology & doing research within that field.
+-- 
